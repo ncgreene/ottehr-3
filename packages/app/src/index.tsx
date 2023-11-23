@@ -13,7 +13,7 @@ root.render(
     audience={import.meta.env.VITE_APP_AUDIENCE}
     clientId={import.meta.env.VITE_APP_CLIENT_ID}
     domain={import.meta.env.VITE_APP_DOMAIN}
-    redirectUri={window.location.protocol + "//" + window.location.hostname}
+    redirectUri={window.location.protocol + "//" + window.location.hostname + '/dashboard'}
   >
     <DataProvider>
       <App />
